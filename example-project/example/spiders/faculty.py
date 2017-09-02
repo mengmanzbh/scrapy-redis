@@ -14,4 +14,5 @@ class FacultySpider(RedisSpider):
         r = Redis(host='34.224.8.126',port=6379,password='ClLBIss1709g',db=0)                                            
         for f in faculty:                                                                                               
             if "http://www.haodf.com/faculty" in f:
-                     r.lpush('facultyurl', f)  
+                     r.lpush('facultyurl', f)                                                             
+
