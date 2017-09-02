@@ -23,7 +23,7 @@ ITEM_PIPELINES = {
 }
 
 LOG_LEVEL = 'DEBUG'
-
+REDIS_URL = 'redis://root:ClLBIss1709g@34.224.8.126:6379'
 # Introduce an artifical delay to make use of parallelism. to speed up the
 # crawl.
 DOWNLOAD_DELAY = 1
